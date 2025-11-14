@@ -53,5 +53,44 @@ Veride toplam **9.288 iade işlemi** tespit edilmiştir. Bu iadelerin toplam par
 
 ---
 
-## 🕒 4. Tarihse
+## 🕒 4. Tarihsel Satış Davranışı
 
+Aylık satış ve gelir analizleri, yıl boyunca **belirgin dönemsel dalgalanmalar** olduğunu göstermektedir.
+
+### 🔍 Genel Trend
+- İlk yarı: **480K–730K £** aralığında dalgalı seyir, belirgin sezonsallık yok.  
+- Yaz ayları (Haziran–Ağustos): **690K–740K £** arasında stabil.  
+- **Eylül** itibarıyla güçlü artış:  
+  - Eylül: ~700K £  
+  - Ekim: ~1M £  
+  - Kasım: **1.47M £**  
+- Bu artış perakende sektöründeki klasik **Q4 sezon etkisi** ile uyumludur.
+
+### 🔔 Aralık Ayı Notu (Veri Eksikliği)
+- Aralık geliri **434K £** görünmektedir.
+- Ancak veri sadece **ilk 9 günü** içerdiğinden sağlıklı bir değerlendirme yapılamaz.
+
+### ✔️ Sonuç
+- Satışlarda **Eylül–Kasım** döneminde belirgin bir artış vardır.  
+- Bu dönem şirket için **yılın en güçlü satış periyodudur**.  
+- Aralık düşüşü **veri eksikliği kaynaklıdır**.
+
+---
+
+## 📌 Genel Değerlendirme
+
+Analiz sonucunda şirketin operasyonları ve pazar stratejileri açısından önemli içgörüler elde edilmiştir:
+
+- Satışların çoğu **düşük fiyatlı ürünlerden** gelmektedir.
+- Gelirin büyük kısmının tek pazardan (Birleşik Krallık) gelmesi **stratejik risk** oluşturmaktadır.
+- İade oranı yüksektir; **süreç iyileştirmesi** gerekmektedir.
+- Satışlarda **belirgin mevsimsellik** gözlenmektedir; Q4 kritik rol oynamaktadır.
+
+### 🎯 Stratejik Önerilerin Özet Listesi
+- Ürün gamı genişletilecekse **düşük fiyatlı kategoriler** önceliklendirilebilir.  
+- Uluslararası büyüme için **hedef pazarlarda derinlemesine analiz** yapılmalıdır.  
+- **İade nedenleri detaylı incelenerek** süreç iyileştirmeleri planlanmalıdır.  
+- Q4 dönemine özel **stok, kampanya ve fiyat optimizasyonu** stratejileri geliştirilmelidir.  
+- Birleşik Krallık'taki müşteri tabanı için **CLV tabanlı segmentasyon** uygulanabilir.  
+
+---
