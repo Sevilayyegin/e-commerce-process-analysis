@@ -179,7 +179,3 @@ Bu projede hem teknik hem iş analisti araçları birlikte kullanılmıştır:
 Bu proje, bir e-ticaret şirketinin satış verisini uçtan uca inceleyerek hem analitik hem iş analisti bakışıyla değerlendirilen profesyonel bir çalışmadır. İçerdiği adımlar; veri temizleme, analiz, segmentasyon ve iş kararlarına yönelik çıkarımlar, portföy amaçlı güçlü bir örnek oluşturmaktadır.
 
 ---
-
-İstersen bu README’ye **görseller**, **grafikler** veya bir **Proje Sonuçları → Bullet listesi** ekleyebilirim.
-
-Bir sonraki adım ne olsun?
