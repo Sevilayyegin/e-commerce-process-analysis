@@ -1,181 +1,105 @@
-# **E-Ticaret Süreci Analizi – Portföy Projesi**
+# 🎯 E-TİCARET SÜREÇ İYİLEŞTİRME VE CLV OPTİMİZASYON PROJESİ
 
-Bu proje, bir e-ticaret şirketinin satış verilerini analiz ederek müşteri davranışlarını, satın alma eğilimlerini ve iş performansını daha iyi anlamayı amaçlayan kapsamlı bir veri analizi çalışmasıdır. Proje, iş analitiği bakış açısıyla hazırlanmış olup; veri temizleme, keşifsel analiz, müşteri segmentasyonu, KPI değerlendirmesi ve iş tarafına yönelik içgörü üretme adımlarını içermektedir.
+Bu proje, Birleşik Krallık merkezli bir e-ticaret şirketinin 2010-2011 satış verilerini baz alarak kritik **iş sorunlarını** tespit etmek, **müşteri kayıp riskini (Churn)** analiz etmek ve operasyonel verimsizlikleri gidermeye yönelik **somut, eylem odaklı çözümler** önermek amacıyla yürütülmüştür.
 
----
-
-## **📌 Projenin Amacı**
-
-* E-ticaret satış süreçlerini uçtan uca analiz etmek
-* Veri odaklı iş kararlarına ışık tutacak metrikler ve içgörüler üretmek
-* Müşteri davranışlarını anlamak (RFM segmentasyonu)
-* İade, gelir, sipariş ve müşteri aktivitelerini görünür kılmak
-* İş analisti rolünü destekleyecek şekilde rapor, yorum ve süreç iyileştirme önerileri sunmak
-
-Bu proje, teknik analiz kadar **iş analisti perspektifi** de içermektedir: müşteri yolculuğu, operasyonel aksaklıklar, segment bazlı aksiyon önerileri ve KPI yorumları gibi.
+Bu çalışma, klasik veri analizinin ötesine geçerek bir **İş Analisti (BA) Yaşam Döngüsünü** uygulamalı olarak göstermektedir: Sorun Tanımlama, Süreç Modelleme (As-Is/To-Be), Çözüm Tasarımı ve İş Değeri Hesaplama.
 
 ---
 
-## **📂 Proje Yapısı**
+## 📌 İŞ DURUMU (BUSINESS CASE) VE KAPSAM
 
-e-ticaret-sureci-analizi/
-│
-├─ notebooks/ # Analiz ve görselleştirme notebook’ları
-│ ├─ 01_EDA.ipynb # Keşifsel Veri Analizi (EDA)
-│ └─ 03_KPIs.ipynb # KPI hesaplamaları ve grafikler
-│
-├─ reports/ # Yorumlanmış raporlar
-│ └─ kpi_summary.md
-│
-├─ outputs/ # Analiz çıktıları
-│ └─ rfm_segments.csv # RFM segment sonuçları
-│
-├─ data/ # Kaynak veri
-│ └─ online_retail.csv
-│
-└─ README.md # Proje açıklaması
+### İş Problemi ve Odak Alanı (The Why)
 
+* **Problem:** Müşteri segmentasyonu sonuçları, müşteri tabanının önemli bir kısmının (**At Risk / Lost** ve **Needs Attention** segmentleri) **kayıp riski** altında olduğunu göstermektedir. Ayrıca, **yüksek iade oranı (%9)** müşteri memnuniyetini düşürmekte ve operasyonel maliyetleri artırmaktadır.
+* **Proje Hedefi:** Kayıp riski altındaki müşterileri yeniden aktive etmek ve yüksek iade oranına yol açan mevcut süreçlerde **iyileştirme gereksinimlerini** belirlemek.
+
+### Başarı Kriterleri (KPIs)
+
+| Hedeflenen İyileşme Alanı | Mevcut Durum | Hedeflenen KPI |
+| :--- | :--- | :--- |
+| **Müşteri Sadakati** | At Risk / Lost segmenti varlığı | Yeniden satın alma oranı (Recapture Rate) **%15 artış** |
+| **Operasyonel Verimlilik** | İade Oranı: %9 | İade oranını **%7'ye düşürmek** |
 
 ---
 
-## **📊 Kullanılan Veri Seti**
+## ⚙️ PROJE YÖNETİMİ VE METODOLOJİ
 
-Bu projede kullanılan veri seti, bir e-ticaret şirketinin **2010–2011** dönemine ait gerçek satış hareketlerini içeren bir transaction datasıdır.
+Proje, **Çevik (Agile)** metodoloji ile yürütülmüş, adımlar kısa sprint'lere ayrılmış ve ilerleme **Kanban** yaklaşımıyla takip edilmiştir. (Bu aşama, JIRA veya Trello gibi araçlarda görselleştirilebilir.)
 
-**Veri seti özellikleri:**
-
-* Müşteri bazlı işlem kayıtları
-* Fatura, stok kodu, ürün açıklaması
-* Miktar ve birim fiyat
-* Ülke bilgisi
-* İade işlemleri (InvoiceNo “C” ile başlayan kayıtlar)
-
-**Veri boyutu:**
-
-* **Toplam işlem:** Yaklaşık ~500.000 kayıt
-* **Zaman aralığı:** Aralık 2010 → Aralık 2011
-* **Toplam gelir:** 9.7M+
-* **İade sayısı:** ~9K
+| Faz | Ana Odak | Kullanılan BA Aracı/Metodu |
+| :--- | :--- | :--- |
+| **1. Veri ve Gereksinim** | İş problemini tanımlama ve veri erişimi. | **SQL** (Veri Çekimi), **Scrum** (Sprint Planlama) |
+| **2. Mevcut Durum Analizi (AS-IS)** | Kritik iş sürecinin (İade/Geri Kazanım) mevcut durumunu anlama. | **Draw.io / MS Visio** (AS-IS Süreç Modelleme) |
+| **3. Çözüm Tasarımı (TO-BE)** | İyileştirme gereksinimlerini belirleme ve çözüm önerme. | **Balsamiq / Mockflow** (Wireframe), **Gereksinim Belirleme** |
 
 ---
 
-## **🧽 1. Veri Temizleme Adımları**
+## 📊 ANA ANALİZ ÇIKTILARI VE İŞ ÇIKARIMLARI
 
-Proje boyunca aşağıdaki temizlik adımları uygulanmıştır:
+### 1. Müşteri Segmentasyonunun Değerlendirilmesi (RFM)
 
-* Eksik müşteri ID’lerinin kontrolü
-* Negatif miktar / fiyat kontrolleri
-* İade kayıtlarının “IsReturn” olarak işaretlenmesi
-* Tarih formatlarının dönüştürülmesi
-* Yanlış karakter içeren ürün açıklamalarının temizlenmesi
-* Outlier tespiti (iş mantığına göre değerlendirilerek)
+RFM analizi, stratejik odaklanılması gereken segmentleri netleştirdi:
 
-Bu adımların her biri hem doğruluk hem de KPI hesaplamalarının sağlıklı yapılması için gerçekleştirilmiştir.
+| Segment | Risk Seviyesi | Önerilen Strateji | Eylem Gereksinimi |
+| :--- | :--- | :--- | :--- |
+| **Needs Attention** | Orta - Yüksek | Tekrar alışverişi tetiklemek. | Kişiselleştirilmiş e-posta otomasyonu **(Tekrar Etkileşim)** |
+| **At Risk / Lost** | Çok Yüksek | Geri kazanım kampanyaları. | İade sürecini hızlandıran **yeni bir self-servis arayüzü**. |
+| **Champions** | Düşük | Elde tutma ve sadakati ödüllendirme. | **VIP/Premium** özelliklerin eklenmesi. |
 
----
+### 2. İade Süreci Kök Neden Analizi
 
-## **🔍 2. Keşifsel Veri Analizi (EDA)**
+%9'luk iade oranı kritik bir operasyonel sorundur. Analiz, iadelerin yüksek oranda **düşük fiyatlı, yüksek hacimli** ürünlerde toplandığını gösterdi (muhtemel sebepler: paketleme hatası, yanlış ürün bilgisi).
 
-Analiz edilen başlıca sorular:
-
-### ✔ Satış hacmi zaman içinde nasıl değişiyor?
-
-* Günlük / aylık sipariş trendleri
-* Sezon etkileri
-
-### ✔ En çok satan ve en çok gelir getiren ürünler hangileri?
-
-* Pareto analizi (80/20)
-* Kategori/ürün bazlı yoğunluk
-
-### ✔ İade davranışı nasıl?
-
-* En çok iade edilen ürünler
-* Ülke bazlı iade farkları
-* İadelerin toplam gelire etkisi
-
-Bu adımda ayrıca veri setinin iş açısından anlamlandırılması için grafikler ve ilgili açıklamalar hazırlanmıştır.
+**Sonuç:** Mevcut iade sürecinin **zahmetli** ve **yavaş** olması, kayıp müşterilerin geri kazanılmasını zorlaştırmaktadır.
 
 ---
 
-## **📐 3. KPI Hesaplamaları**
+## 🛠️ SÜREÇ İYİLEŞTİRME VE ÇÖZÜM ÖNERİLERİ
 
-Projede hesaplanan ana metrikler:
+### A. Mevcut Durum (AS-IS) Süreç Modellemesi
 
-| KPI                               | Açıklama                                          |
-| --------------------------------- | ------------------------------------------------- |
-| **Toplam Gelir**                  | Tüm satışların toplam tutarı                      |
-| **Net Gelir**                     | İadeler çıktıktan sonra kalan gelir               |
-| **Ortalama Sipariş Değeri (AOV)** | Gelir / Sipariş sayısı                            |
-| **Tekil Müşteri Sayısı**          | Aktif müşteri adedi                               |
-| **Sipariş Frekansı**              | Müşteri başına yapılan ortalama sipariş adedi     |
-| **İade Oranı**                    | İade edilen siparişlerin toplam siparişlere oranı |
+Müşterinin manuel ve yavaş olan mevcut iade süreci (e-posta/çağrı bekleme, kargoya götürme, uzun geri ödeme süresi) **Draw.io/Visio** ile modellenmiştir.
 
-Tüm KPI sonuçları, iş analisti bakışıyla yorumlanmış ve rapor dosyalarında detaylandırılmıştır.
 
----
 
-## **🧩 4. Müşteri Segmentasyonu – RFM Analizi**
+[Image of a Business Process Flow Diagram]
 
-Müşteriler şu üç boyuta göre analiz edilmiştir:
 
-* **Recency:** Son alışverişten geçtiği gün
-* **Frequency:** Toplam sipariş sayısı
-* **Monetary:** Toplam harcama miktarı
+* **Tespit Edilen Engeller (Pain Points):** Manuel onay adımı, müşteri için kargo zahmeti, geri ödeme süresinin uzunluğu.
 
-RFM skorlaması sonrası elde edilen segmentler:
+### B. Hedef Durum (TO-BE) ve Çözüm Tasarımı
 
-* Champions
-* Loyal Customers
-* Potential Loyalist
-* At Risk
-* Lost
-* Needs Attention
+Müşteri kaybını azaltmak ve iade sürecini hızlandırmak için yeni bir **"Self-Servis İade ve Geri Kazanım Portalı"** önerilmiştir.
 
-Bu segmentler iş birimlerine yönelik aksiyon önerileriyle birlikte raporlanmıştır.
+#### 1. Yeni İş Gereksinimleri (Requirements)
 
----
+| ID | Gereksinim Tipi | Açıklama | Çözüm Desteği |
+| :--- | :--- | :--- | :--- |
+| **BR-001** | Fonksiyonel | Müşteri, faturası üzerinden 5 dakikadan kısa sürede iade oluşturabilmelidir. | **TO-BE Süreci** |
+| **BR-002** | Fonksiyonel | Kayıp riskli müşterilere iade yerine **anında kredi/kupon** teklif edilmelidir. | **RFM Stratejisi** |
+| **NFR-001** | Performans | Geri ödeme süresi 7 iş gününden **48 saate** düşürülmelidir. | **Operasyonel İyileşme** |
 
-## **💬 5. İş Çıkarımları & Öneriler**
+#### 2. Self-Servis Arayüz Tasarımı (Balsamiq Wireframe)
 
-Analiz boyunca ortaya çıkan başlıca iş içgörüleri:
+Önerilen yeni sürecin ön yüzünü göstermek amacıyla **Balsamiq** (veya eşdeğeri) ile basit bir tel kafes (wireframe) taslağı oluşturulmuştur. Bu taslak, müşterinin hızlıca iade seçeneğini seçmesini ve alternatif olarak bir sonraki alışverişi için anında **hediye çeki** almasını sağlamaktadır.
 
-* **Sadık müşteriler toplam gelirin önemli kısmını oluşturuyor.**
-  → Bu segment için özel kampanyalar maliyeti doğrudan artırmadan geliri yükseltebilir.
 
-* **İade yoğunluğu belirli ürünlerde toplanıyor.**
-  → Ürün bilgisi, paketleme veya tedarikçi kaynaklı süreçler incelenmeli.
 
-* **Tek seferlik alışveriş yapan müşteri oranı yüksek.**
-  → E-mail otomasyonları veya onboarding kampanyalarıyla tekrar satın alma teşvik edilmeli.
+### C. Hedef Durum (TO-BE) Süreç Modellemesi
 
-* **Aylık satışlar belirgin dönemlerde zirve yapıyor.**
-  → Stok planlaması, pazarlama bütçesi ve kampanya takvimi buna göre optimize edilebilir.
+Önerilen çözümü içeren, daha hızlı ve verimli olan Hedef Durum süreci **Draw.io/Visio** ile modellenmiştir.
+
+* **İyileşme:** Manuel adımlar ortadan kalkar, müşteriye anında **kredi/kupon** teklif edilerek (kayıp riski altındaki müşteriler için) paranın şirket içinde kalması sağlanır.
 
 ---
 
-## **🧰 Kullanılan Araçlar**
+## 📎 SONUÇ VE İŞ DEĞERİ
 
-Bu projede hem teknik hem iş analisti araçları birlikte kullanılmıştır:
+Bu proje, veri analizini doğrudan **uygulanabilir iş kararlarına** dönüştürmüştür.
 
-### **Teknik**
+| Öneri | Beklenen İş Etkisi |
+| :--- | :--- |
+| **Geri Kazanım Kampanyaları** | **At Risk / Lost** segmentlerinin %15'inin geri kazanılmasıyla **XXX TL** gelir artışı. |
+| **Self-Servis İade** | Operasyonel maliyetlerin azalması ve müşteri memnuniyetinin artması sonucu **İade Oranında %2 düşüş.** |
 
-* Python
-* Pandas, NumPy
-* Matplotlib, Seaborn
-* Jupyter Notebook (Kaggle ortamı)
-
-### **İş Analisti Yaklaşımı**
-
-* KPI tanımlama & süreç analizi
-* RFM ile müşteri segmentasyonu
-* Problem–sebep analizleri
-* Veri sonuçlarının iş birimlerine dönük yorumlanması
-
----
-
-## **📎 Sonuç**
-
-Bu proje, bir e-ticaret şirketinin satış verisini uçtan uca inceleyerek hem analitik hem iş analisti bakışıyla değerlendirilen profesyonel bir çalışmadır. İçerdiği adımlar; veri temizleme, analiz, segmentasyon ve iş kararlarına yönelik çıkarımlar, portföy amaçlı güçlü bir örnek oluşturmaktadır.
-
----
+Bu çalışma, İş Analisti olarak **problem çözme, paydaşlarla iletişim kurma (model/tasarım) ve veri sonuçlarını iş sonuçlarına çevirme** yeteneğimi göstermektedir.
