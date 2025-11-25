@@ -24,7 +24,7 @@ Bu çalışma, klasik veri analizinin ötesine geçerek bir **İş Analisti (BA)
 
 ## ⚙️ PROJE YÖNETİMİ VE METODOLOJİ
 
-Proje, **Çevik (Agile)** metodoloji ile yürütülmüş, adımlar kısa sprint'lere ayrılmış ve ilerleme **Kanban** yaklaşımıyla takip edilmiştir. (Bu aşama, JIRA veya Trello gibi araçlarda görselleştirilebilir.)
+Proje, **Çevik (Agile)** metodoloji ile yürütülmüş, adımlar kısa sprint'lere ayrılmış ve ilerleme **Kanban** yaklaşımıyla takip edilmiştir. 
 
 | Faz | Ana Odak | Kullanılan BA Aracı/Metodu |
 | :--- | :--- | :--- |
