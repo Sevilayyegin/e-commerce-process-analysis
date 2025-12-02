@@ -95,7 +95,7 @@ Müşterinin manuel ve yavaş olan mevcut iade süreci (e-posta/çağrı bekleme
 
 
 
-![architecture]([reports/İade Süreci (AS-IS) Akış Şeması drawio.png](https://github.com/Sevilayyegin/e-commerce-process-analysis/blob/1f5f5bdd205c4a7528e172b6fde09e930c3bbd22/reports/%C4%B0ade%20S%C3%BCreci%20(AS-IS)%20Ak%C4%B1%C5%9F%20%C5%9Eemas%C4%B1%20drawio.png))
+![İade Süreci Akış Şeması](https://raw.githubusercontent.com/Sevilayyegin/e-commerce-process-analysis/main/reports/%C4%B0ade%20S%C3%BCreci%20(AS-IS)%20Ak%C4%B1%C5%9F%20%C5%9Eemas%C4%B1%20drawio.png)
 
 
 * **Tespit Edilen Engeller (Pain Points):** Manuel onay adımı, müşteri için kargo zahmeti, geri ödeme süresinin uzunluğu.
