@@ -91,11 +91,11 @@ RFM analizi, stratejik odaklanılması gereken segmentleri netleştirdi:
 
 ### A. Mevcut Durum (AS-IS) Süreç Modellemesi
 
-Müşterinin manuel ve yavaş olan mevcut iade süreci (e-posta/çağrı bekleme, kargoya götürme, uzun geri ödeme süresi) **Draw.io/Visio** ile modellenmiştir.
+Müşterinin manuel ve yavaş olan mevcut iade süreci (e-posta/çağrı bekleme, kargoya götürme, uzun geri ödeme süresi) **Draw.io** ile modellenmiştir.
 
 
 
-[Image of a Business Process Flow Diagram]
+![architecture](reports/İade Süreci (AS-IS) Akış Şeması drawio.png)
 
 
 * **Tespit Edilen Engeller (Pain Points):** Manuel onay adımı, müşteri için kargo zahmeti, geri ödeme süresinin uzunluğu.
