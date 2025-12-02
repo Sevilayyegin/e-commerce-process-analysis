@@ -1,4 +1,4 @@
-# 🎯 E-TİCARET SÜREÇ İYİLEŞTİRME VE CLV OPTİMİZASYON PROJESİ
+# 🎯 E-TİCARET BÜYÜME STRATEJİSİ: RFM TABANLI MÜŞTERİ SEGMENTASYONU VE SÜREÇ İYİLEŞTİRME VAKASI
 
 Bu proje, Birleşik Krallık merkezli bir e-ticaret şirketinin 2010-2011 satış verilerini baz alarak kritik **iş sorunlarını** tespit etmek, **müşteri kayıp riskini (Churn)** analiz etmek ve operasyonel verimsizlikleri gidermeye yönelik **somut, eylem odaklı çözümler** önermek amacıyla yürütülmüştür.
 
@@ -8,19 +8,45 @@ Bu çalışma, klasik veri analizinin ötesine geçerek bir **İş Analisti (BA)
 
 ## 📌 İŞ DURUMU (BUSINESS CASE) VE KAPSAM
 
-### İş Problemi ve Odak Alanı (The Why)
+Harika. Vaka çalışmanızın **"İş Durumu ve Kapsam"** (Business Case & Scope) bölümü, bir İş Analisti'nin projesinin amacını ve değerini üst yönetime net bir şekilde iletmesi açısından hayati önem taşır.
 
-* **Problem:** Müşteri segmentasyonu sonuçları, müşteri tabanının önemli bir kısmının (**At Risk / Lost** ve **Needs Attention** segmentleri) **kayıp riski** altında olduğunu göstermektedir. Ayrıca, **yüksek iade oranı (%9)** müşteri memnuniyetini düşürmekte ve operasyonel maliyetleri artırmaktadır.
-* **Proje Hedefi:** Kayıp riski altındaki müşterileri yeniden aktive etmek ve yüksek iade oranına yol açan mevcut süreçlerde **iyileştirme gereksinimlerini** belirlemek.
+Yaptığımız analizleri ve önerdiğim iyileştirmeleri (uluslararası büyüme odaklı) içerecek şekilde, bu kısmı **profesyonel ve odaklanmış** bir dille yeniden düzenleyelim.
 
-### Başarı Kriterleri (KPIs)
+---
+
+## 📌 2. İŞ DURUMU VE PROJE KAPSAMI
+
+Bu proje, mevcut **As-Is** durumundaki kritik iş risklerini tanımlayarak, hedeflenen **To-Be** durumuna ulaşmak için bir yol haritası sunmaktadır.
+
+### 2.1. İş Problemi ve Stratejik Gerekçe (The Business Need)
+
+Şirket, operasyonel ve stratejik düzeyde iki ana zorlukla karşı karşıyadır:
+
+1.  **Tek Pazar Bağımlılığı Riski:** Toplam gelirin %80'den fazlasının Birleşik Krallık'tan gelmesi, şirketi ekonomik ve politik dalgalanmalara karşı savunmasız bırakmaktadır. Uluslararası pazarlardaki **büyüme potansiyeli** yeterince değerlendirilememektedir.
+2.  **Yüksek Operasyonel Kayıp:** %9 seviyesindeki iade oranı (yaklaşık £896K parasal karşılığı), lojistik ve paketleme süreçlerinde verimsizlik olduğunu ve müşteri memnuniyetinin düştüğünü göstermektedir. Bu, doğrudan **kar marjını** eriten bir maliyet kalemidir.
+
+### 2.2. Proje Hedefleri ve Kapsam (To-Be Durumu)
+
+Projenin temel hedefi, **RFM segmentasyonunu** kullanarak uluslararası pazarlarda sürdürülebilir bir büyüme sağlamak ve operasyonel maliyetleri düşürmektir.
+
+#### A. Stratejik Hedef (Büyüme ve Elde Tutma)
+
+* **Odak:** Fransa, Almanya, Hollanda, EIRE ve Avustralya pazarları.
+* **Amaç:** RFM segmentlerine özel kişiselleştirilmiş kampanyalar ile **kayıp riski** altındaki müşterileri geri kazanmak ve **en değerli (Champions)** müşterilerin sadakatini artırmak.
+
+#### B. Operasyonel Hedef (Süreç İyileştirme)
+
+* **Amaç:** Mevcut **manuel ve yavaş iade sürecini** iyileştirmek için **Self-Servis İade Portalı** çözümü tasarlamak. Bu sayede hem operasyonel maliyetler düşürülecek hem de müşteri deneyimi iyileştirilecektir.
+
+### 2.3. Başarı Kriterleri (Key Performance Indicators - KPIs)
+
+Bu projenin başarısı, aşağıdaki somut ve ölçülebilir iş hedefleri ile değerlendirilecektir:
 
 | Hedeflenen İyileşme Alanı | Mevcut Durum | Hedeflenen KPI |
 | :--- | :--- | :--- |
-| **Müşteri Sadakati** | At Risk / Lost segmenti varlığı | Yeniden satın alma oranı (Recapture Rate) **%15 artış** |
+| **Müşteri Geri Kazanım** | At Risk / Lost segmenti varlığı | Yeniden satın alma oranı (Recapture Rate) **%15 artış** |
+| **Sadakat Programı Eşiği** | Champions AOV: £257.72 | **Champions** segmentinde Ortalama Sipariş Değerinde (AOV) **%5 artış** sağlanması. |
 | **Operasyonel Verimlilik** | İade Oranı: %9 | İade oranını **%7'ye düşürmek** |
-
----
 
 ## ⚙️ PROJE YÖNETİMİ VE METODOLOJİ
 
