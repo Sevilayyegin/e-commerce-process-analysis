@@ -8,13 +8,6 @@ Bu çalışma, klasik veri analizinin ötesine geçerek bir **İş Analisti (BA)
 
 ## 📌 İŞ DURUMU (BUSINESS CASE) VE KAPSAM
 
-Harika. Vaka çalışmanızın **"İş Durumu ve Kapsam"** (Business Case & Scope) bölümü, bir İş Analisti'nin projesinin amacını ve değerini üst yönetime net bir şekilde iletmesi açısından hayati önem taşır.
-
-Yaptığımız analizleri ve önerdiğim iyileştirmeleri (uluslararası büyüme odaklı) içerecek şekilde, bu kısmı **profesyonel ve odaklanmış** bir dille yeniden düzenleyelim.
-
----
-
-## 📌 2. İŞ DURUMU VE PROJE KAPSAMI
 
 Bu proje, mevcut **As-Is** durumundaki kritik iş risklerini tanımlayarak, hedeflenen **To-Be** durumuna ulaşmak için bir yol haritası sunmaktadır.
 
@@ -50,15 +43,29 @@ Bu projenin başarısı, aşağıdaki somut ve ölçülebilir iş hedefleri ile 
 
 ## ⚙️ PROJE YÖNETİMİ VE METODOLOJİ
 
-Proje, **Çevik (Agile)** metodoloji ile yürütülmüş, adımlar kısa sprint'lere ayrılmış ve ilerleme **Kanban** yaklaşımıyla takip edilmiştir. 
 
-| Faz | Ana Odak | Kullanılan BA Aracı/Metodu |
+Bu vaka çalışması, hızlı değer teslimine odaklanan **Çevik (Agile)** metodoloji çerçevesinde yürütülmüştür. Proje, tekrarlı ve aşamalı bir yaklaşım izleyerek, sürekli geri bildirim ve adapte olabilirlik prensipleriyle yönetilmiştir.
+
+### 3.1. Yönetim Metodolojisi ve Süreç Akışı
+
+| Metodoloji | Amaç | Takip Aracı Önerisi |
 | :--- | :--- | :--- |
-| **1. Veri ve Gereksinim** | İş problemini tanımlama ve veri erişimi. | **SQL** (Veri Çekimi), **Scrum** (Sprint Planlama) |
-| **2. Mevcut Durum Analizi (AS-IS)** | Kritik iş sürecinin (İade/Geri Kazanım) mevcut durumunu anlama. | **Draw.io / MS Visio** (AS-IS Süreç Modelleme) |
-| **3. Çözüm Tasarımı (TO-BE)** | İyileştirme gereksinimlerini belirleme ve çözüm önerme. | **Balsamiq / Mockflow** (Wireframe), **Gereksinim Belirleme** |
+| **Agile (Çevik)** | Projeyi küçük, yönetilebilir parçalara (Sprint) ayırmak ve hızlıca iş değeri üretmek. | JIRA veya Trello (Sanal Kanban Panosu) |
+| **Kanban (Sürekli Akış)** | İş Akışını (To Do, In Progress, Done) görselleştirmek ve darboğazları (Örn: Veri Temizliği) anında tespit etmek. | Veri analizi adımlarını görsel olarak yönetmek. |
+| **Aşamalı Analiz** | Stratejik analizi (RFM) operasyonel analizden (İade Süreci) önce tamamlayarak, daha sonraki adımlara girdi sağlamak. | Analiz çıktılarına göre (RFM Segmentleri), çözüm tasarımı fazına geçiş kararı. |
+
+### 3.2. İş Analizi Yaşam Döngüsü ve Kullanılan Teknikler
+
+Bu projede kullanılan İş Analizi (BA) teknikleri, sorun tanımlamadan çözüm tasarımına kadar olan tüm süreci kapsamaktadır.
+
+| Faz | Ana Odak | Kullanılan BA Aracı/Tekniği |
+| :--- | :--- | :--- |
+| **1. İş İhtiyacını Tanımlama** | Gelir riski ve operasyonel verimsizlikleri tespit etme. | **Kök Neden Analizi** (Yüksek iadenin nedenleri), **Sayısal KPI Analizi** (UK bağımlılığı). |
+| **2. Modelleme ve Analiz** | Müşteri değerini ve süreç akışını anlama. | **RFM Segmentasyonu** (Python/Pandas), **AS-IS Süreç Modellemesi** (Mevcut İade Süreci). |
+| **3. Çözüm Tasarımı** | İyileştirme gereksinimlerini belirleme ve çözümü görselleştirme. | **Gereksinim Belirleme** (BR & NFR), **TO-BE Süreç Modellemesi**, **Wireframe/Tel Kafes Tasarımı** (Self-Servis Portal). |
 
 ---
+
 
 ## 📊 ANA ANALİZ ÇIKTILARI VE İŞ ÇIKARIMLARI
 
