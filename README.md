@@ -95,7 +95,7 @@ Müşterinin manuel ve yavaş olan mevcut iade süreci (e-posta/çağrı bekleme
 
 
 
-![İade Süreci Akış Şeması](https://raw.githubusercontent.com/Sevilayyegin/e-commerce-process-analysis/main/reports/%C4%B0ade%20S%C3%BCreci%20(AS-IS)%20Ak%C4%B1%C5%9F%20%C5%9Eemas%C4%B1%20drawio.png)
+![İade Süreci As-IS Akış Şeması](https://github.com/Sevilayyegin/e-commerce-process-analysis/blob/0f9a214ae3c4a29d58e16f1455594899defb7c7a/reports/%C4%B0ade%20S%C3%BCreci%20(AS-IS)%20Ak%C4%B1%C5%9F%20%C5%9Eemas%C4%B1%20drawio.drawio.png)
 
 
 * **Tespit Edilen Engeller (Pain Points):** Manuel onay adımı, müşteri için kargo zahmeti, geri ödeme süresinin uzunluğu.
@@ -103,6 +103,7 @@ Müşterinin manuel ve yavaş olan mevcut iade süreci (e-posta/çağrı bekleme
 ### B. Hedef Durum (TO-BE) ve Çözüm Tasarımı
 
 Müşteri kaybını azaltmak ve iade sürecini hızlandırmak için yeni bir **"Self-Servis İade ve Geri Kazanım Portalı"** önerilmiştir.
+
 
 #### 1. Yeni İş Gereksinimleri (Requirements)
 
@@ -120,7 +121,9 @@ Müşteri kaybını azaltmak ve iade sürecini hızlandırmak için yeni bir **"
 
 ### C. Hedef Durum (TO-BE) Süreç Modellemesi
 
-Önerilen çözümü içeren, daha hızlı ve verimli olan Hedef Durum süreci **Draw.io/Visio** ile modellenmiştir.
+Önerilen çözümü içeren, daha hızlı ve verimli olan Hedef Durum süreci **Draw.io** ile modellenmiştir.
+
+![İade Süreci TO-BE Akış Şeması](https://github.com/Sevilayyegin/e-commerce-process-analysis/blob/0f9a214ae3c4a29d58e16f1455594899defb7c7a/reports/TO-BE%20%C4%B0ade%20S%C3%BCreci.drawio.png)
 
 * **İyileşme:** Manuel adımlar ortadan kalkar, müşteriye anında **kredi/kupon** teklif edilerek (kayıp riski altındaki müşteriler için) paranın şirket içinde kalması sağlanır.
 
