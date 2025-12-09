@@ -2,7 +2,7 @@
 
 Bu proje, mevcut durumdaki verimsizlikleri tespit etmek ve hedeflenen TO-BE sürecinin başarısını ölçmek için somut metrikler kullanır.
 
-## 1. Temel Metrikler: AS-IS (Baseline) vs. TO-BE (Target)
+## 1. Temel Metrikler: AS-IS vs. TO-BE
 
 Bu tablo, süreç iyileştirme ve stratejik elde tutma (retention) hedeflerimizin mevcut başlangıç değerlerini ve hedeflenen çıktıları göstermektedir.
 
