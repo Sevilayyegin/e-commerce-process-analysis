@@ -2,7 +2,7 @@
 
 Bu proje, mevcut durumdaki verimsizlikleri tespit etmek ve hedeflenen TO-BE sürecinin başarısını ölçmek için somut metrikler kullanır.
 
-## 1. Mevcut Durum KPI'ları (Baseline)
+## 1. Mevcut Durum KPI'ları
 
 | KPI | Mevcut Değer | Analitik Kaynak |
 | :--- | :--- | :--- |
@@ -11,7 +11,7 @@ Bu proje, mevcut durumdaki verimsizlikleri tespit etmek ve hedeflenen TO-BE sür
 | **Champions AOV (Medyan)** | £257.72 | RFM Analizi |
 | **Geri Ödeme Süresi** | 7 İş Günü | AS-IS Süreç Modellemesi |
 
-## 2. Hedeflenen TO-BE KPI'ları (Başarı Kriterleri)
+## 2. Hedeflenen TO-BE KPI'ları
 
 | KPI | Hedef Değer | Stratejik Gerekçe |
 | :--- | :--- | :--- |
