@@ -117,7 +117,7 @@ Müşteri kaybını azaltmak ve iade sürecini hızlandırmak için yeni bir **"
 
 Önerilen yeni sürecin ön yüzünü göstermek amacıyla **Balsamiq** (veya eşdeğeri) ile basit bir tel kafes (wireframe) taslağı oluşturulmuştur. Bu taslak, müşterinin hızlıca iade seçeneğini seçmesini ve alternatif olarak bir sonraki alışverişi için anında **hediye çeki** almasını sağlamaktadır.
 
-
+![İade ve Değişim Merkezi](https://github.com/Sevilayyegin/e-commerce-process-analysis/blob/d979b97636aeddd5b9e684041ae987c9bacf31a2/reports/%C4%B0ade%20ve%20De%C4%9Fi%C5%9Fim%20Merkezi.png)
 
 ### C. Hedef Durum (TO-BE) Süreç Modellemesi
 
