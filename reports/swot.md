@@ -12,6 +12,21 @@ Bu analiz, RFM segmentasyonu ve süreç analizi çıktılarından faydalanılara
 * **Yüksek Operasyonel Kayıp:** %9'luk genel iade oranı, lojistik ve ürün bilgilerinde verimsizlik olduğunu gösterir.
 * **Verimsiz AS-IS Süreci:** İade süreci **manuel onaylar** içerir ve **7 günlük geri ödeme süresi** müşteri deneyimini olumsuz etkiler.
 
+### 🎯 RFM Segment Dağılımı ve Odak Alanı
+
+| Segment | Müşteri Sayısı | Stratejik Eylem |
+| :--- | :--- | :--- |
+| **Champions** | ≈ 875 | Sadakati ödüllendirme (AOV artışı hedefi). |
+| **At Risk / Lost** | ≈ 875 | **BR-002** (Geri Kazanım Portalı) ile hedeflenen en büyük potansiyel fırsat. |
+| **Needs Attention** | ≈ 875 | Tekrar etkileşim kampanyaları. |
+
+---
+### 🛠️ Operasyonel Kök Neden Örneği
+
+| Ürün Kodu | Ürün Adı | Satılan Adet | İade Edilen Adet | İş Yorumu |
+| :--- | :--- | :--- | :--- | :--- |
+| **21977** | Dünya Savaşı Planörleri | 10.840 | Yüksek | Yüksek hacimli ve düşük fiyatlı bu ürünlerin **paketleme/lojistik** süreçleri kritik aksaklık işaretidir. |
+
 ## III. Fırsatlar (Opportunities)
 
 * **Uluslararası Büyüme:** Fransa, Almanya ve Hollanda gibi pazarlarda (mevcut müşteri tabanı ve gelir potansiyeli ile) hedefli RFM kampanyaları ile büyüme potansiyeli.
