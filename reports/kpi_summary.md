@@ -2,20 +2,23 @@
 
 Bu proje, mevcut durumdaki verimsizlikleri tespit etmek ve hedeflenen TO-BE sürecinin başarısını ölçmek için somut metrikler kullanır.
 
-## 1. Mevcut Durum KPI'ları
+## 1. Temel Metrikler: AS-IS (Baseline) vs. TO-BE (Target)
 
-| KPI | Mevcut Değer | Analitik Kaynak |
+Bu tablo, süreç iyileştirme ve stratejik elde tutma (retention) hedeflerimizin mevcut başlangıç değerlerini ve hedeflenen çıktıları göstermektedir.
+
+| KPI | Mevcut Durum (AS-IS) | Hedeflenen Değer (TO-BE) | Analitik/Gereksinim Desteği |
+| :--- | :--- | :--- | :--- |
+| **Geri Ödeme Süresi** | 7 İş Günü | **48 Saat (NFR-001)** | AS-IS Süreç Modellemesi |
+| **Genel İade Oranı** | %9 | **%7'ye Düşürmek** | Kök Neden Analizi |
+| **Champions Medyan AOV** | **£257.72** | **%5 Artış** | RFM Analizi (Jupyter Notebook) |
+| **Müşteri Geri Kazanım** | At Risk / Lost Segmenti Varlığı | **%15 Recapture Rate Artışı** | RFM Stratejisi |
+
+---
+
+## 2. Stratejik Hedeflerin Gerekçesi
+
+| Hedeflenen İyileşme | Amaç ve Stratejik Gerekçe | İlişkili Çözüm |
 | :--- | :--- | :--- |
-| **UK Gelir Payı** | %80+ | Sayısal KPI Analizi |
-| **Genel İade Oranı** | %9 | Kök Neden Analizi |
-| **Champions AOV (Medyan)** | £257.72 | RFM Analizi |
-| **Geri Ödeme Süresi** | 7 İş Günü | AS-IS Süreç Modellemesi |
-
-## 2. Hedeflenen TO-BE KPI'ları
-
-| KPI | Hedef Değer | Stratejik Gerekçe |
-| :--- | :--- | :--- |
-| **Yeniden Satın Alma Oranı (Recapture Rate)** | %15 Artış | **At Risk / Lost** segmentindeki müşterilerin geri kazanılması hedeflenir. |
-| **Champions AOV** | %5 Artış | En değerli müşterilerin sadakati ödüllendirilerek Ortalama Sipariş Değeri artırılacaktır. |
-| **Geri Ödeme Süresi (NFR-001)** | **48 Saat** | Müşteri deneyimini iyileştirerek müşteri kaybını azaltmak. |
-| **İade Oranı** | %7'ye Düşürmek | Süreç iyileştirmeleri ve daha iyi ürün bilgisi ile operasyonel maliyetleri azaltmak. |
+| **Yeniden Satın Alma Oranı (Recapture Rate)** | **At Risk / Lost** segmentindeki müşterileri geri kazanarak müşteri kaybını (Churn) doğrudan gelire çevirmek. | Self-Servis İade Portalı (Anında Kupon Teklifi - **BR-002**) |
+| **Champions AOV Artışı** | En değerli müşterilerin sadakatini ödüllendirerek Ortalama Sipariş Değerinde sürdürülebilir bir büyüme sağlamak. | VIP/Premium programlarına yatırımın kanıtı. |
+| **48 Saat Geri Ödeme (NFR-001)** | Müşteri deneyimini sektör standartlarına taşıyarak iade kaynaklı müşteri kaybını önlemek. | **TO-BE Sürecinde Manuel Adımların Kaldırılması** |
