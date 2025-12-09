@@ -131,11 +131,12 @@ Müşteri kaybını azaltmak ve iade sürecini hızlandırmak için yeni bir **"
 
 ## 📎 SONUÇ VE İŞ DEĞERİ
 
-Bu proje, veri analizini doğrudan **uygulanabilir iş kararlarına** dönüştürmüştür.
+Bu proje, veri analizini doğrudan **uygulanabilir iş kararlarına** dönüştürmüş ve somut bir iş değeri yaratmıştır.
 
 | Öneri | Beklenen İş Etkisi |
 | :--- | :--- |
-| **Geri Kazanım Kampanyaları** | **At Risk / Lost** segmentlerinin %15'inin geri kazanılmasıyla **XXX TL** gelir artışı. |
-| **Self-Servis İade** | Operasyonel maliyetlerin azalması ve müşteri memnuniyetinin artması sonucu **İade Oranında %2 düşüş.** |
+| **Geri Kazanım Kampanyaları** | **At Risk / Lost** segmentlerinin %15'inin geri kazanılmasıyla yıllık bazda tahmini **£30.000 - £35.000** **gelir artışı**. |
+| **Self-Servis İade** | Operasyonel maliyetlerin azalması ve müşteri memnuniyetinin artması sonucu **İade Oranında %2 düşüş** (yaklaşık £190K tasarruf potansiyeli). |
+| **Stratejik Risk Azaltma** | Uluslararası pazarlara (Hollanda, Almanya) odaklanarak **UK pazar bağımlılığı** riskinin uzun vadede azaltılması. |
 
 Bu çalışma, İş Analisti olarak **problem çözme, paydaşlarla iletişim kurma (model/tasarım) ve veri sonuçlarını iş sonuçlarına çevirme** yeteneğimi göstermektedir.
