@@ -1,8 +1,16 @@
-# Problem Statement
+# İŞ PROBLEMİ BEYANI (PROBLEM STATEMENT)
 
-İade oranı yüksek ve gelirin büyük bir kısmı tek bir pazara (Birleşik Krallık) bağımlı. Bu durum hem maliyetleri yükseltmekte hem de gelir akışını dışsal şoklara karşı kırılgan hale getirmektedir.
+Bu proje, şirketin uzun vadeli büyümesini ve sürdürülebilirliğini tehdit eden iki temel risk ve operasyonel verimsizlik üzerine kurulmuştur.
 
-**Neden Önemli?**  
-- İadeler toplam gelir üzerinde yaklaşık %9’luk bir negatif etki yapıyor ve bu, operasyonel maliyetleri ve net kârlılığı zorluyor.  
-- Gelirin %80+’inin tek bir pazardan gelmesi, döviz, regülasyon veya lojistik problemlerinde büyük bir risk oluşturuyor.  
-- Bu iki sorunun çözülmesi; kârlılığı artıracak, operasyonel maliyetleri azaltacak ve iş sürekliliğini güçlendirecektir.
+## 1. Stratejik Risk: Tek Pazar Bağımlılığı
+
+| Metrik | Durum | Risk |
+| :--- | :--- | :--- |
+| **UK Gelir Payı** | Toplam gelirin %80'den fazlası Birleşik Krallık'tan gelmektedir. | Şirket, tek bir pazarın ekonomik ve politik dalgalanmalarına karşı savunmasızdır. Uluslararası pazarlardaki (Fransa, Almanya, Hollanda, EIRE, Avustralya) büyüme potansiyeli yeterince değerlendirilememektedir. |
+
+## 2. Operasyonel Verimsizlik ve Müşteri Kaybı
+
+| Metrik | Durum | Risk |
+| :--- | :--- | :--- |
+| **İade Oranı** | %9 seviyesindedir (Yaklaşık £896K karşılığı). | Yüksek lojistik maliyetlerine, kar marjı erozyonuna ve düşük müşteri memnuniyetine neden olmaktadır. |
+| **İade Süreci (AS-IS)** | Müşteri Hizmetleri tarafından manuel onay ve 7 iş günü süren geri ödeme süreci mevcuttur. | Sürecin yavaşlığı, özellikle **At Risk / Lost** segmentindeki müşterilerin geri kazanılmasını zorlaştırmakta ve müşteri kayıp oranını (Churn) artırmaktadır. |
