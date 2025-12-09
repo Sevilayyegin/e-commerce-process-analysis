@@ -8,6 +8,17 @@ Bu proje, şirketin uzun vadeli büyümesini ve sürdürülebilirliğini tehdit 
 | :--- | :--- | :--- |
 | **UK Gelir Payı** | Toplam gelirin %80'den fazlası Birleşik Krallık'tan gelmektedir. | Şirket, tek bir pazarın ekonomik ve politik dalgalanmalarına karşı savunmasızdır. Uluslararası pazarlardaki (Fransa, Almanya, Hollanda, EIRE, Avustralya) büyüme potansiyeli yeterince değerlendirilememektedir. |
 
+### 🌐 UK Dışı En Yüksek Gelire Sahip 5 Pazar (Kanıt)
+
+| Ülke | Toplam Gelir (£) | Oran |
+| :--- | :--- | :--- |
+| **Hollanda** | 284,000 | %2.9 |
+| **EIRE** | 250,000 | %2.5 |
+| **Almanya** | 221,000 | %2.3 |
+| **Fransa** | 196,000 | %2.0 |
+| **Avustralya** | 138,000 | %1.4 |
+| *UK Payı:* | *%80+* | *%80+* |
+
 ## 2. Operasyonel Verimsizlik ve Müşteri Kaybı
 
 | Metrik | Durum | Risk |
